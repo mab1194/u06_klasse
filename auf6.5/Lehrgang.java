@@ -40,11 +40,12 @@ public class Lehrgang
       teilnehmer5.fachrichtung   = "Anwendungsentwicklung";
 
       System.out.println("");
-      System.out.printf("%-15s "  + " %-15s " + " %-2d " + " %-15s" + "\n", teilnehmer1.name, teilnehmer1.vorname, teilnehmer1.alter,teilnehmer1.fachrichtung);
-      System.out.printf("%-15s "  + " %-15s " + " %-2d " + " %-15s" + "\n", teilnehmer2.name, teilnehmer2.vorname, teilnehmer2.alter,teilnehmer2.fachrichtung);
-      System.out.printf("%-15s "  + " %-15s " + " %-2d " + " %-15s" + "\n", teilnehmer3.name, teilnehmer3.vorname, teilnehmer3.alter,teilnehmer3.fachrichtung);
-      System.out.printf("%-15s "  + " %-15s " + " %-2d " + " %-15s" + "\n", teilnehmer4.name, teilnehmer4.vorname, teilnehmer4.alter,teilnehmer4.fachrichtung); 
-      System.out.printf("%-15s "  + " %-15s " + " %-2d " + " %-15s" + "\n", teilnehmer5.name, teilnehmer5.vorname, teilnehmer5.alter,teilnehmer5.fachrichtung);
+      System.out.printf("%-15s "  + " %-15s " + " %-5s " + " %-15s" + "\n", "Name", "Nachname", "Alter", "Fachrichtung");
+      System.out.printf("%-15s "  + " %-15s " + " %-5d " + " %-15s" + "\n", teilnehmer1.name, teilnehmer1.vorname, teilnehmer1.alter,teilnehmer1.fachrichtung);
+      System.out.printf("%-15s "  + " %-15s " + " %-5d " + " %-15s" + "\n", teilnehmer2.name, teilnehmer2.vorname, teilnehmer2.alter,teilnehmer2.fachrichtung);
+      System.out.printf("%-15s "  + " %-15s " + " %-5d " + " %-15s" + "\n", teilnehmer3.name, teilnehmer3.vorname, teilnehmer3.alter,teilnehmer3.fachrichtung);
+      System.out.printf("%-15s "  + " %-15s " + " %-5d " + " %-15s" + "\n", teilnehmer4.name, teilnehmer4.vorname, teilnehmer4.alter,teilnehmer4.fachrichtung); 
+      System.out.printf("%-15s "  + " %-15s " + " %-5d " + " %-15s" + "\n", teilnehmer5.name, teilnehmer5.vorname, teilnehmer5.alter,teilnehmer5.fachrichtung);
       System.out.println("");
    }
 }
